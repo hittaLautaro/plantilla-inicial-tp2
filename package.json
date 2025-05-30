@@ -13,7 +13,7 @@
     "url": "git+https://github.com/deborolon/ejemplos-parciales-tp2-2025.git"
   },
   "keywords": ["node.js, express, mvc"],
-  "author": "Debo Rolon",
+  "author": "Debo Rolon, Iñaki Gallastegui",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/deborolon/ejemplos-parciales-tp2-2025/issues"
