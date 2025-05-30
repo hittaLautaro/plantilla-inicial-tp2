@@ -1,11 +1,19 @@
-import PalabrasModel from "../models/model.js";
+import Factory from "../models/Factory.js";
 class PalabrasService {
     constructor() {
-        this.palabrasModel = new PalabrasModel();
+        this.palabrasModel = Factory.create(process.env.PERSISTENCE);
     }
 
-    async getPalabras() {
-        return await this.palabrasModel.getPalabras();
-    }
+    getPalabras = async () => {
+         return await this.palabrasModel.getPalabras();
+    };
+
+    postPalabra = async (newPalabra) => {
+        return await this.palabrasModel.postPalabra(newPalabra);
+    };
+
+    patchPalabra = async (id, updatedPalabra) => {
+        return await this.palabrasModel.patchPalabra(id, updatedPalabra);
+    };
 }
 export default PalabrasService;
