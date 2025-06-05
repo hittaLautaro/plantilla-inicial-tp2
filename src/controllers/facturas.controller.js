@@ -23,7 +23,7 @@ class FacturasController {
       const facturas = await this.facturasService.getFacturasPorTipo(tipo);
       res.status(200).json(facturas);
     } catch (error) {
-      res.status(500).json({ error: "Error fetching facturas por tipo" });
+      res.status(500).json({ error: "Error fetching facturas by type" });
     }
   };
   getFacturasPorEstado = async (req, res) => {
@@ -33,7 +33,7 @@ class FacturasController {
       const facturas = await this.facturasService.getFacturasPorEstado(estado);
       res.status(200).json(facturas);
     } catch (error) {
-      res.status(500).json({ error: "Error fetching facturas por estado" });
+      res.status(500).json({ error: "Error fetching facturas by state" });
     }
   };
 

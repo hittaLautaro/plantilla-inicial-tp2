@@ -53,7 +53,7 @@ class FacturasModel {
       this.facturas[index] = { ...this.facturas[index], ...updatedFactura };
       return this.facturas[index];
     }
-    return "Error: el indice no existe";
+    return "The index doesn't exist";
   };
 }
 
