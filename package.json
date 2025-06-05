@@ -1,5 +1,5 @@
 {
-  "name": "ejemplos-parciales-tp2-2025",
+  "name": "Plantilla Inicial TP2",
   "version": "1.0.0",
   "main": "src/index.js",
   "type": "module",
@@ -10,15 +10,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/deborolon/ejemplos-parciales-tp2-2025.git"
+    "url": "git+https://github.com/hittaLautaro/plantilla-inicial-tp2.git"
   },
-  "keywords": ["node.js, express, mvc"],
-  "author": "Debo Rolon, Iñaki Gallastegui",
+  "keywords": [
+    "node.js, express, mvc"
+  ],
+  "author": "Hitta Lautaro",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/deborolon/ejemplos-parciales-tp2-2025/issues"
+    "url": "https://github.com/hittaLautaro/plantilla-inicial-tp2/issues"
   },
-  "homepage": "https://github.com/deborolon/ejemplos-parciales-tp2-2025#readme",
+  "homepage": "https://github.com/hittaLautaro/plantilla-inicial-tp2#readme",
   "description": "",
   "dependencies": {
     "dotenv": "^16.5.0",
