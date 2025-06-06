@@ -18,8 +18,6 @@ class FacturasController {
     try {
       const { tipo } = req.params;
 
-      console.log(tipo);
-
       const facturas = await this.facturasService.getFacturasPorTipo(tipo);
       res.status(200).json(facturas);
     } catch (error) {
