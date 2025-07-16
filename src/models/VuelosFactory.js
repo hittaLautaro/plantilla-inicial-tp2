@@ -1,6 +1,6 @@
-import Model from "./DAO/facturas.model.js";
+import Model from "./DAO/vuelos.model.js";
 
-class FacturasFactory {
+class VuelosFactory {
   static create(persistence) {
     switch (persistence) {
       case "memory":
@@ -12,4 +12,4 @@ class FacturasFactory {
   }
 }
 
-export default FacturasFactory;
+export default VuelosFactory;
