@@ -6,12 +6,12 @@ class VuelosService {
   }
 
   getVuelos = async () => {
-    return await this.vuelosModel.getAll();
+    return await this.vuelosModel.getVuelos();
   };
 
   postVuelo = async (nuevoVuelo) => {
     await this.vuelosModel.postVuelo(nuevoVuelo);
-    const vuelos = await this.vuelosModel.getAll();
+    const vuelos = await this.vuelosModel.getVuelos();
 
     const alertas = vuelos
       .filter((v) => v.id !== nuevoVuelo.id)
